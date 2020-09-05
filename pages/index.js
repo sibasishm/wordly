@@ -8,8 +8,8 @@ export default function Home() {
 				<link rel='stylesheet' href='https://rsms.me/inter/inter.css' />
 				<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
 			</Head>
-			<header className='p-4 py-8 sm:py-12 lg:py-16 sm:text-center space-y-4 sm:space-y-8 lg:space-y-12'>
-				<h1 className='text-4xl leading-6 sm:text-6xl sm:leading-8 lg:text-8xl lg:leading-10 font-extrabold tracking-tight'>
+			<header className='p-4 py-8 sm:py-12 lg:py-20 sm:text-center space-y-6 sm:space-y-8 lg:space-y-10'>
+				<h1 className='text-5xl leading-8 sm:text-6xl sm:leading-9 lg:text-7xl lg:leading-10 font-extrabold tracking-tight'>
 					Wordly.
 				</h1>
 				<p className='text-md sm:text-lg lg:text-2xl text-gray-700 leading-6 lg:leading-8'>
@@ -45,8 +45,8 @@ export default function Home() {
 				</div>
 			</header>
 			<main className='bg-gray-100 min-h-screen'>
-				<div className='max-w-3xl mx-auto p-4 sm:px-6 lg:max-w-5xl lg:px-0 space-y-4'>
-					<p className='text-md leading-tight'>
+				<div className='max-w-3xl mx-auto p-4 sm:px-6 lg:max-w-5xl lg:px-0 space-y-6'>
+					<p className='text-md leading-tighter'>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nemo
 						ipsa, repudiandae asperiores deleniti reiciendis laudantium modi.
 						Inventore repudiandae reprehenderit ratione esse? Eveniet quod
@@ -66,7 +66,7 @@ export default function Home() {
 						assumenda dicta. Atque excepturi, error iste quos sint, deleniti
 						commodi earum vero, maiores reiciendis molestiae repellendus? Velit!
 					</p>
-					<p className='text-md leading-tight'>
+					<p className='text-md leading-tighter'>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nemo
 						ipsa, repudiandae asperiores deleniti reiciendis laudantium modi.
 						Inventore repudiandae reprehenderit ratione esse? Eveniet quod
@@ -79,7 +79,7 @@ export default function Home() {
 						provident non excepturi ad rerum ipsum nemo dignissimos consequuntur
 						porro est consectetur similique, pariatur dicta assumenda.
 					</p>
-					<p className='text-md leading-tight'>
+					<p className='text-md leading-tighter'>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nemo
 						ipsa, repudiandae asperiores deleniti reiciendis laudantium modi.
 						Inventore repudiandae reprehenderit ratione esse? Eveniet quod
