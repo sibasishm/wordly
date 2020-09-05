@@ -45,7 +45,7 @@ export default function Home() {
 				</div>
 			</header>
 			<main className='bg-gray-100 min-h-screen'>
-				<div className='max-w-3xl mx-auto p-4 sm:px-6 lg:max-w-5xl lg:px-0 space-y-6'>
+				<div className='max-w-3xl mx-auto p-4 sm:px-6 lg:max-w-5xl space-y-6'>
 					<p className='text-md leading-tighter'>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nemo
 						ipsa, repudiandae asperiores deleniti reiciendis laudantium modi.
