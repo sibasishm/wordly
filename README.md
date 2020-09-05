@@ -1,6 +1,6 @@
 ## Wordly
 
-A personalized collection of new english words that we rarely encounter in our day-to-day use. A new word is added everyday with it's meaning and pronunciation.
+A personalized collection of new English words that we rarely encounter in our day-to-day use. A new word is added everyday with it's meaning and pronunciation.
 
 ## About
 
