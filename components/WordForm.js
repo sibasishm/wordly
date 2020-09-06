@@ -59,32 +59,62 @@ export default function WordForm() {
 		});
 	};
 	return (
-		<form onSubmit={handleFormSubmit}>
-			<input
-				className='mb-2 border px-3 py-4'
-				type='text'
-				value={name}
-				onChange={e => setName(e.target.value)}
-				name='name'
-				id='name'
-			/>
-			<input
-				className='mb-2 border px-3 py-4'
-				type='text'
-				value={meaning}
-				onChange={e => setMeaning(e.target.value)}
-				name='meaning'
-				id='meaning'
-			/>
-			<input
-				className='mb-2 border px-3 py-4'
-				type='text'
-				value={sentence}
-				onChange={e => setSentence(e.target.value)}
-				name='sentence'
-				id='sentence'
-			/>
-			<button className='block' type='submit'>
+		<form className='bg-white rounded p-6' onSubmit={handleFormSubmit}>
+			<div>
+				<label
+					htmlFor='name'
+					className='block text-gray-700 uppercase text-sm font-bold'
+				>
+					Word
+				</label>
+				<input
+					className='appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:border-gray-500'
+					type='text'
+					value={name}
+					onChange={e => setName(e.target.value)}
+					name='name'
+					id='name'
+					autoComplete='off'
+				/>
+			</div>
+			<div className='mt-4'>
+				<label
+					htmlFor='meaning'
+					className='block text-gray-700 uppercase text-sm font-bold'
+				>
+					Meaning
+				</label>
+				<input
+					className='appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:border-gray-500'
+					type='text'
+					value={meaning}
+					onChange={e => setMeaning(e.target.value)}
+					name='meaning'
+					id='meaning'
+					autoComplete='off'
+				/>
+			</div>
+			<div className='mt-4'>
+				<label
+					htmlFor='meaning'
+					className='block text-gray-700 uppercase text-sm font-bold'
+				>
+					Sentence
+				</label>
+				<input
+					className='appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:border-gray-500'
+					type='text'
+					value={sentence}
+					onChange={e => setSentence(e.target.value)}
+					name='sentence'
+					id='sentence'
+					autoComplete='off'
+				/>
+			</div>
+			<button
+				className='block bg-gray-900 text-white font-semibold py-2 px-3 rounded mt-6 focus:outline-none focus:bg-gray-800 hover:bg-gray-800'
+				type='submit'
+			>
 				Add Word
 			</button>
 		</form>
