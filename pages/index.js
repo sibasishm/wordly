@@ -1,6 +1,7 @@
 import Head from 'next/head';
+
 import WordsContainer from '../components/WordsContainer';
-import WordForm from '../components/WordForm';
+import AddWord from '../components/AddWord';
 
 export default function Home() {
 	return (
@@ -46,10 +47,10 @@ export default function Home() {
 					</div>
 				</div>
 			</header>
-			<main className='bg-gray-100 min-h-screen'>
+			<main className='bg-gray-100'>
 				<div className='max-w-3xl mx-auto p-4 sm:px-6 lg:max-w-5xl space-y-6'>
 					<WordsContainer />
-					<WordForm />
+					<AddWord />
 				</div>
 			</main>
 		</div>
