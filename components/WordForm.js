@@ -58,6 +58,7 @@ export default function WordForm() {
 			meaning,
 		});
 	};
+
 	return (
 		<form className='bg-white rounded p-6' onSubmit={handleFormSubmit}>
 			<div>
