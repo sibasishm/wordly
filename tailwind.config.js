@@ -1,9 +1,13 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
+	future: {
+		purgeLayersByDefault: true,
+		removeDeprecatedGapUtilities: true,
+	},
 	purge: {
 		mode: 'all',
-		content: ['./src/**/*.{js,mdx}', './next.config.js'],
+		content: ['./components/*.{js,tsx}', './pages/*.{js,tsx}'],
 	},
 	theme: {
 		extend: {
